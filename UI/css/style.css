@@ -61,6 +61,10 @@ header li{
     text-align:center;
 }
 
+#searchbar{
+    align-content: center;
+}
+
 /*footer*/
 footer{
     background-color: #473E92;
