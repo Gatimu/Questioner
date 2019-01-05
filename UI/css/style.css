@@ -106,7 +106,7 @@ header li{
     color:#473E92;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #meetups{
@@ -173,3 +173,4 @@ footer{
         width: 100%
     }
 }
+   
