@@ -5,11 +5,30 @@ body {
     padding: 0;
     margin: 0;
 }
+body a:hover{
+    color:#e8491d;
+    font-weight: bold;
+}
 
 .container{
     width: 95%;
     margin: auto;
     overflow: hidden;
+}
+
+.button{
+    height:38px;
+    background:#473E92;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;
+    font-size: 18px;
+    
+}
+
+.orange{
+    color: #e8491d;
 }
 
 ul{
@@ -32,7 +51,7 @@ header a{
     color: #ffffff;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 header .highlight, header .current a{
@@ -56,9 +75,68 @@ header li{
 }
 
 /*description*/
+
 #description{
-    min-height: 500px;
+    min-height: 50px;
     text-align:center;
+    border: grey 1px solid;
+    margin-bottom: 50px
+}
+
+/*searchbar*/
+
+#searchbar input{
+    padding: 8px;
+    width: 50%;
+    height: 15px;
+}
+
+/*meetups*/
+
+#top_meet_1{
+    float:left;
+    color:#473E92;
+}
+#top_meet_2{
+    float:right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+#top_meet_2 .a{
+    color:#473E92;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+#meetups{
+    margin:auto;
+    width: 93%;
+}
+
+#meetups .meetup{
+    width: auto;
+    float:left;
+    padding:20px;  
+}
+
+#meetups .meetup img{
+    width:420px;
+    height: 250px;
+    position: relative;
+    float: left;
+    
+}
+
+#meetups .date{
+    float:left;
+    margin-top: 8px;
+    width: 15%;
+}
+
+#meetups .descpt{
+    float:right;
+    width: 85%;
 }
 
 /*footer*/
@@ -66,19 +144,33 @@ footer{
     background-color: #473E92;
     text-align: center;
     color: #ffffff;
-    padding: 10px
+    padding: 10px;
 }
 
 /*media quesries*/
 @media(max-width: 768px){
     header #sitebrand,
     header nav,
-    header nav li{
+    header nav li,
+    #searchbar,
+    #meetups .meetup,
+    #meetups .meetup img,
+    #top_meet_1,
+    #top_meet_2{
         float: none;
         text-align: center;
         width: 100%
     }
-header{
-    padding-bottom: 40px
+    header{
+        padding-bottom: 40px
+    }
+    #searchbar form input[type="text"]{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #searchbar button{
+        display: block;
+        width: 100%
+    }
 }
-}
+   

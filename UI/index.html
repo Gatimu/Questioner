@@ -16,7 +16,7 @@
     <header>
         <div class="container">
             <div id="sitebrand">
-                <h2>Questioner</h2>
+                <h1>Questioner</h1>
             </div>
             <nav>
                 <ul>
@@ -31,11 +31,97 @@
 
     <section id="description">
         <div class="container">
-            <h1>Crowd-source questions for a meetup</h1>
+            <h1 class="orange">Crowd-source questions for a meetup</h1>
             <h3>Questioner helps the meetup organizer prioritize questions to be answered. Other users can vote on asked questions.</p>
-            <h4>Login to ask questions and comment on questions asked.</p>
+        <div class="container" id="searchbar">
+            <form>
+                <input type="text" placeholder="Search for questions or meetups..">
+                <button type="submit" class="button">Search</button>
+            </form>  
+        </div>
         </div>
     </section> 
+
+    <section>
+        <div class="container">
+            <div id="top_meet_1">
+                <h2>Latest Meetups</h2>
+            </div>
+            <div id="top_meet_2">
+                <a href="all_meetups.html" class="a">View all meetups > </a>
+            </div>
+        </div>
+    </section>
+
+    <article id="meetups">
+        <div class="container">
+            <div class="meetup">
+                <div>
+                    <img src="./images/art lovers.jpg" alt="art img">
+                </div>
+                
+                <div>
+                    <div class="date">
+                        <div>
+                            <p class="orange">FEB</p>
+                        </div>
+                        <div>
+                            <p>8</p>
+                        </div>
+                    </div>
+                    <div class="descpt">
+                        <h2>Arts lovers</h2>
+                        <p>Fri, Feb 8, 10.00am</p>
+                        <p>Standard Street, Nairobi, Kenya</p>
+                    </div>                          
+                </div>
+            </div>
+
+            <div class="meetup">
+                <div>
+                    <img src="./images/software-developers.jpeg" alt="software devs img">
+                </div>
+                
+                <div>
+                    <div class="date">
+                        <div>
+                            <p class="orange">JAN</p>
+                        </div>
+                        <div>
+                            <p>17</p>
+                        </div>
+                    </div>
+                    <div class="descpt">
+                        <h2>Software Developers Fest 2019</h2>
+                        <p>Thur, Jan 17, 10.00am</p>
+                        <p>Standard Street, Nairobi, Kenya</p>
+                    </div>                            
+                </div>
+            </div>
+
+            <div class="meetup">
+                <div>
+                    <img src="./images/cooking groups.jpeg" alt="cooking group img">
+                </div>
+                
+                <div>
+                    <div class="date">
+                        <div>
+                            <p class="orange">FEB</p>
+                        </div>
+                        <div>
+                            <p>2</p>
+                        </div>
+                    </div>
+                    <div class="descpt">
+                        <h2>Cooking Class</h2>
+                        <p>Sat, Feb 2, 2.pm</p>
+                        <p>Westlands, Nairobi, Kenya</p>
+                    </div>                            
+                </div>
+            </div>
+        </div>
+    </article>
 
     <footer>
         <p>Questioner copyright &copy; 2019</p>
