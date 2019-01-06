@@ -152,7 +152,7 @@ header li{
     width: 85%;
 }
 
-/*login form*/
+/*signin and signup form*/
 
 form.f1{
     padding: 20px;
@@ -168,7 +168,7 @@ input.login{
 #form{
     width: 470px;
     margin-left: 30%;
-    margin-top: 60px
+    margin-top: 20px
 }
 
 /*footer*/
