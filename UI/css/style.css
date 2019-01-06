@@ -47,6 +47,11 @@ body a{
 .orange{
     color: #e8491d;
 }
+
+.grey{
+    color:grey;
+}
+
 .center{
     text-align: center
 }
@@ -171,8 +176,23 @@ input.login{
     margin-top: 20px
 }
 
-/*
+/*statistics*/
+.stat{
+    display: inline-block;
+    padding: 0 30px 0 30px;
+    margin:0px
+}
 
+#rightborder{
+    border-right: #cdd6d5 2px solid;
+}
+#leftborder{
+    border-left: #cdd6d5 2px solid;
+    border-right: #cdd6d5 2px solid 
+}
+#bottom{
+    border-bottom: #cdd6d5 2px solid
+}
 /*footer*/
 footer{
     background-color: #473E92;
@@ -183,6 +203,7 @@ footer{
 
 /*media quesries*/
 @media(max-width: 768px){
+    header,
     header #sitebrand,
     header nav,
     header nav li,
