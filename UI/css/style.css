@@ -154,22 +154,21 @@ header li{
 
 /*login form*/
 
-form.backg{
-    background-color: #cdd6d5;
+form.f1{
     padding: 20px;
-    margin-top: 50px;
     border-radius: 6px;
+    border: #cdd6d5 1px solid;
 }
 
 input.login{
     width: 100%;
     padding: 13px 0 13px 0;
     margin: 5px 0 22px 0;
-    background: #ffffff;
 }
 #form{
-    width: 450px;
-    margin-left: 30%
+    width: 470px;
+    margin-left: 30%;
+    margin-top: 60px
 }
 
 /*footer*/
@@ -189,10 +188,15 @@ footer{
     #meetups .meetup,
     #meetups .meetup img,
     #top_meet_1,
-    #top_meet_2{
+    #top_meet_2,{
         float: none;
         text-align: center;
         width: 100%
+    }
+    #form{
+        margin-left: 1%;
+        margin-right:1%;
+        width:100%
     }
     header{
         padding-bottom: 40px
