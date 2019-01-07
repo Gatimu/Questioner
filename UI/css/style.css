@@ -224,6 +224,14 @@ td, th{
     padding:8px;
 }
 
+/*User Profile*/
+img.userprofile{
+    width:300px;
+}
+
+#uprofile{
+    float:left;
+}
 /*footer*/
 footer{
     background-color: #473E92;
