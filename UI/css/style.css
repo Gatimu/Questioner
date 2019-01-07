@@ -208,6 +208,22 @@ input.meetupform{
     margin: 5px 0 5px 0;
 }
 
+/*admin_meetups*/
+
+#admn_meetups{
+    float: right;
+}
+
+table{
+    border-collapse: collapse;
+    width:600px
+}
+td, th{
+    border-bottom: #cdd6d5 1px solid;
+    text-align:left;
+    padding:8px;
+}
+
 /*footer*/
 footer{
     background-color: #473E92;
