@@ -193,6 +193,21 @@ input.login{
 #bottom{
     border-bottom: #cdd6d5 2px solid
 }
+
+/*meetup form*/
+#meetupform{
+    margin-top:5px;
+    width: 500px;
+    padding: 0;
+    float:left;
+
+}
+input.meetupform{
+    width: 100%;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 5px 0;
+}
+
 /*footer*/
 footer{
     background-color: #473E92;
@@ -207,6 +222,7 @@ footer{
     header #sitebrand,
     header nav,
     header nav li,
+    textarea,
     #searchbar,
     #meetups .meetup,
     #meetups .meetup img,
@@ -216,7 +232,8 @@ footer{
         text-align: center;
         width: 100%
     }
-    #form{
+    #form,
+    #meetupform{
         margin-left: 1%;
         margin-right:1%;
         width:100%
