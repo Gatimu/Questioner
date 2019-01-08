@@ -21,6 +21,3 @@ Souce venv
 ## Installation the dependancies
 
 pip install -r requirements.txt
-
-
-
