@@ -9,6 +9,7 @@
     <title>Questioner | Specific Meetup</title>
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
     <link rel="icon" href="./images/Qicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -20,11 +21,79 @@
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="meetups.html">Meetups</a></li>
-                    <li><a href="signin.html">Login</a></li>
+                    <li><a href="signin.html">Logout</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <section id="meetups">
+        <div class="container">
+            <div id="qstn">
+                <div>
+                    <img src="./images/software-developers.jpeg" alt="software devs img">
+                </div>
+                
+                <div>
+                    <div class="date">
+                        <div>
+                            <p class="orange">JAN</p>
+                        </div>
+                        <div>
+                            <p>17</p>
+                        </div>
+                    </div>
+                    <div class="descpt">
+                        <h2>Software Developers Fest 2019</h2>
+                        <p>Thur, Jan 17, 10.00am</p>
+                        <p>Standard Street, Nairobi, Kenya</p>
+                    </div>                            
+                </div>
+            </div>
+
+            <div id="qstn">
+                <div class="meetup">
+                    <h1>Software Developers</h1>
+                
+                    <div>
+                        <div>
+                            <h4></h4>Is it possible to automatically stringify in Javascript?</b></p>
+                            <p>I know I can create a toString() function on an object, so that every time it's printed or treated like a string it will first stringify the object with that function. Is it possible to do that ... </p>
+                        </div>
+                        <div>
+                            <p>
+                            <i class="fa fa-thumbs-up"></i> 20
+                            <i class="fa fa-thumbs-down"></i>1
+                            <i class="fa fa-comment"></i>3
+                            </p> 
+                        </div> 
+                    </div>
+                    
+                    <div>
+                        <div>
+                            <h4></h4>React Router working only once when Link is clicked</b></p>
+                            <p>I am new to laravel and reactjs at the same time though i am studying how to work with these two together. I am trying out the most basic things having a left pane which has the "Projects" and then ...</p>
+                        </div>
+                        <div>
+                            <p>
+                            <i class="fa fa-thumbs-up"></i> 15
+                            <i class="fa fa-thumbs-down"></i>1
+                            <i class="fa fa-comment"></i>3
+                            </p>
+                        </div> 
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer >
+        <p>Questioner copyright &copy; 2019</p>
+    </footer>
+    
+</body>
+</html>
