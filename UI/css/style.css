@@ -243,27 +243,9 @@ footer{
     color: #ffffff;
     padding: 10px;
 }
-
-/*specific question*/
-
-#qsnt{
-    margin:auto;
-    width: 93%;
+#sizeq{
+    width:50%
 }
-
-#qstn .specific{
-    width: 20;
-    float:left;
-    padding:20px;  
-}
-
-#main{
-    float:right;
-}
-#qstn{
-    float:left;
-}
-
 
 /*media quesries*/
 @media(max-width: 768px){
