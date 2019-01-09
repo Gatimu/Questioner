@@ -236,6 +236,12 @@ img.userprofile{
 #uprofile{
     float:left;
 }
+
+/*users*/
+#users{
+    margin-bottom: 200px
+}
+
 /*footer*/
 footer{
     background-color: #473E92;
