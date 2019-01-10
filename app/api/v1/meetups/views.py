@@ -31,10 +31,6 @@ class Meetups(Resource):
         """docstring for fetching all the meetups posted"""
         self.db.get_all()
         return jsonify({
-            'location': request.json.get('location'),
-            'title': request.json.get('title'),
-            'happeningOn': request.json.get('happeningOn'),
-            'tags': request.json.get('tags')
             "status": 200,
             "data": self.db.get_all()
         })
