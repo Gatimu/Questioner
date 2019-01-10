@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-
+from app.api.v1.routes import VERSION_ONE as v1
 
 from app.instance.config import APP_CONFIG
 
@@ -10,5 +10,5 @@ def create_app(config_name):
     app.config.from_object(APP_CONFIG[config_name])
 
    
-
+    app.register_blueprint(v1)
     return app
