@@ -30,3 +30,6 @@ class MeetupsModel():
 
         self.db.append(data)
         return self.id
+
+    def get_all(self):
+        return self.db

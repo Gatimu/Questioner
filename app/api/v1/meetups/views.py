@@ -26,3 +26,11 @@ class Meetups(Resource):
                 "tags":request.json.get('tags')
             }
         })
+
+    def get(self):
+        """docstring for fetching all the meetups posted"""
+        self.db.get_all()
+        return jsonify({
+            "status": 200,
+            "data": self.db.get_all()
+        })
