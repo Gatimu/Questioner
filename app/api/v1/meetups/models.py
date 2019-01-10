@@ -22,9 +22,10 @@ class MeetupsModel():
         data = {
             'id': self.id,
             'createdOn': datetime.datetime.utcnow(),
-            'createdBy': request.json.get('createdBy'),
-            'title': request.json.get('title'),
-            'question': request.json.get('question')
+            'location': request.json.get('location'),
+            'Topic': request.json.get('topic'),
+            'happeningOn': request.json.get('happeningOn'),
+            'tags': request.json.get('tags')
         }
 
         self.db.append(data)
