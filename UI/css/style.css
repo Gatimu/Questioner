@@ -249,6 +249,9 @@ footer{
     color: #ffffff;
     padding: 10px;
 }
+#sizeq{
+    width:50%
+}
 
 /*media quesries*/
 @media(max-width: 768px){
