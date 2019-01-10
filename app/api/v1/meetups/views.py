@@ -20,6 +20,9 @@ class Meetups(Resource):
             "status": 201,
             "data": {
                 "id": meetup_id,
-                "message": "Posted a meetup"
+                "topic": request.json.get('topic'),
+                "location": request.json.get('location'),
+                "happeningOn":request.json.get('happeningOn'),
+                "tags":request.json.get('tags')
             }
         })
