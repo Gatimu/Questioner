@@ -19,9 +19,13 @@ class MeetupsTestCase(unittest.TestCase):
                 "tags" : "HR"
             } 
 
-    def test_post_redflag(self):
+    def test_post_meetups(self):
         response = self.app.post("/api/v1/meetups", headers={'Content-Type': 'application/json'},
                                  data=json.dumps(self.meetups))
         result = json.loads(response.data)
         self.assertEqual(result['status'], 201)    
         
+    def test_get_all_meetups(self):
+        """method to test get all"""
+        response = self.app.get("/api/v1/meetups")
+        self.assertEqual(response.status_code, 200)
