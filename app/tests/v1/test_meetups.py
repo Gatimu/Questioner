@@ -23,5 +23,5 @@ class MeetupsTestCase(unittest.TestCase):
         response = self.app.post("/api/v1/meetups", headers={'Content-Type': 'application/json'},
                                  data=json.dumps(self.meetups))
         result = json.loads(response.data)
-        self.assertEqual(response.status_code, 201)    
+        self.assertEqual(result['status'], 201)    
         
