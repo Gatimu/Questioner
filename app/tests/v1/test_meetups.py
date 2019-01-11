@@ -20,6 +20,7 @@ class MeetupsTestCase(unittest.TestCase):
             } 
 
     def test_post_meetups(self):
+        """method to test post"""
         response = self.app.post("/api/v1/meetups", headers={'Content-Type': 'application/json'},
                                  data=json.dumps(self.meetups))
         result = json.loads(response.data)
